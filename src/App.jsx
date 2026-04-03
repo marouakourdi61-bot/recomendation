@@ -23,7 +23,7 @@ function App() {
 
 
       <BrowserRouter>
-      
+
         <Navbar/>
         <Routes>
         
@@ -31,6 +31,7 @@ function App() {
           <Route path="/plates" element={<Plates />} />
           <Route path="/plates/:id" element={<PlateDetail />} />
           <Route path="/profile" element={<Profile />} />
+          
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
         </Routes>
