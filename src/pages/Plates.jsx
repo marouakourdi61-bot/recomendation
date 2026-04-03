@@ -70,6 +70,7 @@ function Plates() {
                 type="text"
                 placeholder="Rechercher un plat..."
                 value={search}
+                
                 onChange={e => setSearch(e.target.value)}
             />
             <p>Plats sélectionnés: {selected.length}</p>
